@@ -1,0 +1,97 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+html, body{
+color: #000000;
+font-size: 10px;
+height: 100%;
+font-family: 'Ropa Sans', sans-serif;
+}
+body{
+	margin: 0;
+	background: url("https://thumbs.gfycat.com/NaiveFamousCrownofthornsstarfish-size_restricted.gif")no-repeat; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size: cover;
+}
+
+.container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-content: center;
+align-items: center;
+}
+
+ul li {
+	list-style: none;
+}
+
+h1{
+	margin:2px;
+	padding: 20px;
+}
+
+
+#div-ciudades{
+	font-size: 30px;
+
+	text-align: center;
+	background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSai2MCO1rSe87oBX-8iL9t-yPQoS703YAfjhwlk4bJ5PY-JBCO")no-repeat;
+	background-size: cover;
+	padding: 10px;
+	border-radius: 10px;
+	border: 6px solid orange;
+}
+
+
+#input-city{
+margin-bottom: 5px;
+
+}
+
+#resultados{
+	border:6px solid orange;
+	font-size: 15px;
+	width: 30em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSai2MCO1rSe87oBX-8iL9t-yPQoS703YAfjhwlk4bJ5PY-JBCO")no-repeat;
+	background-size: cover;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 10px;
+}
+
+
+.botones-temp{
+	display: flex;
+	justify-direction: column;
+	justify-content: center;
+}
+
+.botones-temp button{
+width: 80px;
+margin: 0 10px 0 10px;
+background-color: #C0FDFB;
+outline:none;
+border:0;
+border-radius: 10px;
+
+}
+
+.botones-temp button:hover{
+	background-color: #FFFFFF;
+
+}
+
+input{
+	background-color: white;
+}
+
+#add-btn{
+	cursor: pointer;
+}
